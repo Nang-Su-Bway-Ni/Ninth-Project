@@ -26,6 +26,8 @@ main {
 }
 h1 {
   font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
 }
 img {
   width: 100%;
@@ -55,10 +57,13 @@ header img {
 .right h1 {
   padding-bottom: 10px;
 }
+.right p {
+  margin: 20px 0;
+}
 button {
   margin-top: 20px;
-  padding: 10px;
-  width: 130px;
+  padding: 15px;
+  width: 160px;
   border-radius: 30px;
   background-color: #fff;
   font-family: "Open Sans", sans-serif;
@@ -68,6 +73,7 @@ button {
   border: 1px solid transparent;
   cursor: pointer;
   transition: 0.4s ease;
+  font-size: 16px;
 }
 button:hover {
   background-color: var(--soft-magenta);
@@ -122,5 +128,8 @@ button:hover {
   .icon {
     text-align: center;
     margin-top: 60px;
+  }
+  button {
+    width: 100%;
   }
 }
